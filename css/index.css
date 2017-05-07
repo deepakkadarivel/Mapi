@@ -6,4 +6,33 @@ html, body {
     height: 100%;
     margin: 0;
     padding: 0;
+    position: relative;
+    overflow: hidden;
+}
+
+#trigger {
+    position: absolute;
+    left: 4px;
+    bottom: 4px;
+}
+
+button {
+    height: 32px;
+    width: 120px;
+    font-family: sans-serif;
+    font-size: 12px;
+    color: gray;
+    background-color: white;
+    border: none;
+    box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.6);
+}
+
+button:focus {
+     outline: 0;
+}
+
+button:active {
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0.1);
+    top: 2px;
+    color: black;
 }
